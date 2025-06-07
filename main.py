@@ -9,7 +9,8 @@ def main():
     op = input("Operation: ").strip().lower()
     a = float(input("Enter first number: "))
     b = float(input("Enter second number: "))
-
+    #added a new function
+    print("Enter a number: ")
     if op == "add":
         result = calc.add(a, b)
     elif op == "subtract":
